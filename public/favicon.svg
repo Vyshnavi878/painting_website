@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- House Roofline -->
+  <path d="M64 16 L22 52 L31 52 L64 24 L97 52 L106 52 Z" fill="#D9232E" />
+  <!-- Chimney -->
+  <rect x="76" y="22" width="8" height="16" fill="#D9232E" />
+  
+  <!-- Window 4-panes -->
+  <g fill="#D9232E">
+    <rect x="58" y="32" width="5" height="5" rx="0.5" />
+    <rect x="65" y="32" width="5" height="5" rx="0.5" />
+    <rect x="58" y="39" width="5" height="5" rx="0.5" />
+    <rect x="65" y="39" width="5" height="5" rx="0.5" />
+  </g>
+
+  <!-- Paint Roller Frame and Handle -->
+  <g stroke="#1F2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Handle -->
+    <path d="M30 68 L24 78" stroke-width="4.5" />
+    <!-- Metal stem -->
+    <path d="M30 68 L34 62 L32 54 L26 54 L26 44 L38 44" />
+  </g>
+
+  <!-- Roller Cylinder with Yellow/Amber Gradient -->
+  <defs>
+    <linearGradient id="rollerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EAB308" />
+      <stop offset="60%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+    
+    <linearGradient id="strokeYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="strokeOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+    <linearGradient id="strokeRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+    <linearGradient id="strokePurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#7E22CE" />
+    </linearGradient>
+    <linearGradient id="strokeBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <rect x="36" y="40" width="22" height="9" rx="3" fill="url(#rollerGrad)" transform="rotate(-15 36 40)" />
+
+  <!-- Flowing Paint Ribbon Strokes -->
+  <path d="M42 48 C52 50 66 52 82 58 C72 61 58 58 44 51 Z" fill="url(#strokeYellow)" />
+  <path d="M44 51 C58 58 74 62 88 70 C76 71 60 66 45 54 Z" fill="url(#strokeOrange)" />
+  <path d="M45 54 C60 66 76 73 89 82 C76 81 58 74 44 58 Z" fill="url(#strokeRed)" />
+  <path d="M44 58 C58 74 72 84 84 94 C72 90 56 80 43 62 Z" fill="url(#strokePurple)" />
+  <path d="M43 62 C54 78 64 88 74 100 C64 94 52 83 40 66 Z" fill="url(#strokeBlue)" />
+
+  <!-- Monogram CE -->
+  <text x="44" y="122" font-family="Plus Jakarta Sans, system-ui, -apple-system, sans-serif" font-weight="900" font-size="26" fill="#D9232E" text-anchor="middle" letter-spacing="-1">C</text>
+  <text x="76" y="122" font-family="Plus Jakarta Sans, system-ui, -apple-system, sans-serif" font-weight="900" font-size="26" fill="#111827" text-anchor="middle" letter-spacing="-1">E</text>
+</svg>
